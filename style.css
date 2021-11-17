@@ -1,0 +1,73 @@
+html {
+    background: url(img/flzc.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background: rgba(255, 255, 255, .6);
+    mix-blend-mode: screen;
+    color: black;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 3em;
+}
+
+button {
+    text-align: left;
+    padding: 0 16px;
+    border-width: 0px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 270px;
+    background-color: rgba(0, 112, 153, 0.6);
+    margin-bottom: 16px;
+}
+
+button:hover {
+    background-color: rgba(0, 112, 153);
+}
+
+#enter {
+    background-color: rgba(23, 170, 48, 0.6);
+    margin-top: 16px;
+}
+
+#enter:hover {
+    background-color: rgb(23, 170, 48);
+}
+
+.fa-plus-circle {
+    font-size: 21px;
+}
+
+.fas {
+    margin-right: 8px;
+}
+
+@media only screen and (min-width: 600px) {
+    .main {
+        align-items: flex-start;
+        padding: 0 40px;
+    }
+    button {
+        font-size: 1.5em;
+    }
+}
