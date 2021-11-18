@@ -22,7 +22,7 @@ h1 {
     background: rgba(55, 55, 55, .8);
     mix-blend-mode: overlay;
     color: rgba(255, 255, 255, .8);
-    padding: 0px 10px;
+    padding: 7px 10px;
     border-radius: 5px;
     width: 250px;
     font-size: 10em;
@@ -33,13 +33,13 @@ h1 {
 }
 
 h2 {
-    background: rgba(255, 255, 255, 0.8);
-    mix-blend-mode: overlay;
-    color: rgba(55, 55, 55, .8);
+    background: rgba(202, 202, 202, 0.6);
+    color: rgba(55, 55, 55);
     font-size: 1em;
     border-radius: 5px;
     width: 250px;
     padding: 0px 10px;
+    margin-top: 10px;
 }
 
 button {
